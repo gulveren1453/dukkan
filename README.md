@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+# 🛍️ Dükkan - Neighborhood Store Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Dükkan** means *"neighborhood store"* in Turkish – bringing the warmth and familiarity of local shopping to a mobile platform. This cross-platform mobile app offers a simple and intuitive interface where users can browse, add, and manage products in real-time.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Technologies Used
 
-   ```bash
-   npm install
-   ```
+### 🖥️ Frontend
+- **React Native (Expo Router)** – Single codebase for both iOS and Android
+- **Lottie** – Lightweight animations
+- **Formik** – Error-free form management
 
-2. Start the app
+### 🔥 Backend (Firebase)
+- **Authentication** – Secure login/signup
+- **Cloud Firestore** – Real-time product database
+- **Firebase Storage** – Simple and efficient image upload
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📱 Key Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 👤 Users
+- User authentication
+- Browse available products
+- Add products to cart
+- View cart
+- Smooth logout process
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🛠️ Admins
+- Add, edit, or delete products
+- Manage users
+- CMS integration & content approval
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🔄 User Flow
+
+> Below are some key pages that define the user journey.
+
+### 🔐 Login  
+![Login Screen](./screenshots/login.png)
+
+### 🛒 Product Listing  
+![Product List](./screenshots/home.png)
+
+### ➕ Add / Edit Product  
+![Add Product](./screenshots/add.png)
+
+### ✏️ Edit Product  
+![Edit Product](./screenshots/edit.png)
+
+### ✏️ Edit Product 2  
+![Edit Product 2](./screenshots/edit2.png)
+
+### 🗑️ Delete Product  
+![Delete Product](./screenshots/delete.png)
+
+### 🚪 Logout  
+![Logout Screen](./screenshots/logout.png)
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/gulveren1453/dukkan.git
+cd dukkan
+npm install
+npx expo start
